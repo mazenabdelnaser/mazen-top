@@ -288,6 +288,33 @@ body{
     transform: translateY(-50%);
     border-radius: 20px ;
 }
+.t{
+    color: white;
+}
+.t::before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background-color: rgb(58, 58, 238);
+    position: absolute;
+    left: -30px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 20px ;
+
+}
+
+.t::after {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background-color: rgb(58, 58, 238);
+    position: absolute;
+    right: -30px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 20px ;
+}
 .main-title ::after {
     content: "";
     width: 12px;

@@ -4,6 +4,10 @@ body{
     background-image: url("../img/national-cancer-institute-1c8sj2IO2I4-unsplash.jpg");
 
 }
+*{
+    color: #fff;
+    padding: 0;
+}
 .top{
     /* background-image: url("../img/national-cancer-institute-1c8sj2IO2I4-unsplash.jpg"); */
     background-repeat: no-repeat;
@@ -15,7 +19,7 @@ body{
     text-align: center;
 }
 .container .img-top{
-    color: black;
+    /* color: black; */
     font-family: 'Mynerve', cursive;
 
 
@@ -62,7 +66,7 @@ body{
     font-size: 24px;
     padding: 0 0 4px 0;
     text-decoration: none;
-    color: black;
+    /* color: black; */
 
 
     font-size: 30px;
@@ -124,7 +128,38 @@ body{
     content: "";
     width: 12px;
     height: 12px;
-    background-color: rgb(253, 96, 140);
+    background-color: rgb(245, 81, 109);
+    position: absolute;
+    left: -30px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 20px ;
+
+}
+.i{
+    color: #fff;
+
+}
+.i::after {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background-color: rgb(245, 81, 109);
+    position: absolute;
+    right: -30px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 20px ;
+}
+.in{
+    color: #fff;
+
+}
+.in::before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background-color: rgb(4, 4, 118);
     position: absolute;
     left: -30px;
     top: 50%;
@@ -133,22 +168,26 @@ body{
 
 }
 
-.i::after {
+.in::after {
     content: "";
     width: 12px;
     height: 12px;
-    background-color: rgb(253, 96, 140);
+    background-color: rgb(4, 4, 118);
     position: absolute;
     right: -30px;
     top: 50%;
     transform: translateY(-50%);
     border-radius: 20px ;
 }
+.f{
+    color: #fff;
+
+}
 .f::before {
     content: "";
     width: 12px;
     height: 12px;
-    background-color: rgb(118, 118, 244);
+    background-color: blue;
     position: absolute;
     left: -30px;
     top: 50%;
@@ -161,7 +200,7 @@ body{
     content: "";
     width: 12px;
     height: 12px;
-    background-color: rgb(118, 118, 244);
+    background-color: blue;
     position: absolute;
     right: -30px;
     top: 50%;
@@ -195,11 +234,14 @@ body{
 .x{
     color: white;
 }
+.w-1{
+    color: white;
+}
 .w-1::before {
     content: "";
     width: 12px;
     height: 12px;
-    background-color: rgb(3, 128, 20);
+    background-color: green;
     position: absolute;
     left: -30px;
     top: 50%;
@@ -212,18 +254,21 @@ body{
     content: "";
     width: 12px;
     height: 12px;
-    background-color: rgb(3, 128, 20);
+    background-color: green;
     position: absolute;
     right: -30px;
     top: 50%;
     transform: translateY(-50%);
     border-radius: 20px ;
 }
-.w-2::before {
+.sn{
+    color: white;
+}
+.sn::before {
     content: "";
     width: 12px;
     height: 12px;
-    background-color: rgb(3, 128, 20);
+    background-color: yellow;
     position: absolute;
     left: -30px;
     top: 50%;
@@ -232,11 +277,11 @@ body{
 
 }
 
-.w-2::after {
+.sn::after {
     content: "";
     width: 12px;
     height: 12px;
-    background-color: rgb(3, 128, 20);
+    background-color: yellow;
     position: absolute;
     right: -30px;
     top: 50%;
@@ -267,7 +312,7 @@ body{
     border-radius: 20px ;
 }
 .gradient-background {
-    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background: linear-gradient(300deg, #117393, #102547, #0e0710);
     background-size: 180% 180%;
     animation: gradient-animation 18s ease infinite;
     
